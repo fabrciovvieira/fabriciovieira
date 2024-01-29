@@ -771,3 +771,8 @@ footer {
         margin: auto 10px 10px 10px;
     }
 }
+@media (max-width:390px) {
+    .about-container h2 {
+        font-size: 1.8rem;
+    }
+}
