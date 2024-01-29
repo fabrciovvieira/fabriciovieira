@@ -10,6 +10,9 @@
     --blue-gray-color: #F0EBFF;
     --blue-strong-color: #5157D0;
 }
+body, html {
+    height: auto;
+}
 /* CABEÇALHO */
 header {
     position: fixed;
@@ -417,7 +420,7 @@ textarea {
 footer {
     height: auto;
     background-color: black;
-    color: #fafafa;
+    color: var(--light-color);
     
 }
 .container-footer {
@@ -447,8 +450,11 @@ footer {
 }
 .footer-end {
     text-align: center;
-    margin: 75px;
-    padding-bottom: 50px;  
+    margin-top: 30px; 
+}
+.footer-end,
+.footer-end a {
+    font-size: 0.7rem; 
 }
 .footer-end a {
     font-weight: bold;
@@ -456,7 +462,7 @@ footer {
 }
 /* MOBILE */
 
-@media (max-width: 425px) {
+@media (max-width:425px) {
     #hamburger {
         display: block;
         z-index: 1;
@@ -762,15 +768,6 @@ footer {
         justify-content: center;
     }
     #logo-footer-end svg{
-        margin: auto 10px 20px 10px;
+        margin: auto 10px 10px 10px;
     }
-}
-.footer-end {
-    text-align: center;
-    margin: 75px;
-    padding-bottom: 50px;  
-}
-.footer-end a {
-    font-weight: bold;
-    color: #fff;
 }
