@@ -28,6 +28,25 @@ navLinks.forEach(link => {
     });
 });
 
+function enviarEmail() {
+    var nome = document.getElementsByName("nome")[0].value;
+    var email = document.getElementById("emailcliente").value;
+    var assunto = document.getElementById("assunto").value;
+    var descricao = document.getElementsByName("descricao")[0].value;
+
+    // Monta o link "mailto:"
+    var linkEmail = "mailto:" + email +
+                    "?subject=" + encodeURIComponent(assunto) +
+                    "&body=" + encodeURIComponent("Nome: " + nome + "\n\nMensagem: " + descricao);
+
+    // Abre a tela de email do usuário
+    window.location.href = linkEmail;
+
+    // Limpa os campos do form
+    document.getElementById("contact-form").reset();
+}
+
+
 // redireciona btn
 
 function redirectToPage(url) {
