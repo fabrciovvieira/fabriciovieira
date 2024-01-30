@@ -2,6 +2,8 @@
 
 Bem-vindo ao meu portfólio de desenvolvimento front-end! Este projeto foi desenvolvido utilizando HTML, CSS e JavaScript puro durante o meu processo de aprendizado. 
 
+Vizualise: https://fabrciovvieira.github.io/fabriciovieira/
+
 ## Visão Geral
 
 Este portfólio é uma demonstração do meu progresso e habilidades no desenvolvimento web front-end. Durante o desenvolvimento, foquei em criar uma interface de usuário intuitiva e atraente, explorando conceitos de design e implementando funcionalidades interativas.
